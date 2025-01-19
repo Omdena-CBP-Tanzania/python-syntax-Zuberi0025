@@ -10,7 +10,7 @@ def format_string(name, age):
     Returns:
         str: Formatted string
     """
-    pass
+    
 
 def conditional_check(number):
     x=5
@@ -28,7 +28,7 @@ def conditional_check(number):
     Returns:
         str: "Greater", "Lesser", or "Equal"
     """
-    pass
+    
 
 def loop_sum(n):
     n=int(2)
@@ -43,8 +43,7 @@ def loop_sum(n):
     Returns:
         int: Sum of numbers
     """
-    pass
-
+    
 def list_operations(numbers):
     list=[1,2,3,5,6,7,8,11,21,8,9,41,6]
     print(sum(list))
@@ -57,7 +56,7 @@ def list_operations(numbers):
     Returns:
         tuple: (sum, max, min)
     """
-    pass
+    
 
 def dict_operations(students_dict):
     dict_by_func = dict(Jonah = 65,
@@ -74,7 +73,7 @@ def dict_operations(students_dict):
     Returns:
         list: Names of students with scores > 80
     """
-    pass
+    
 
 def set_operations(list1, list2):
     list1=[1,2,3,"a","z",85]
@@ -88,7 +87,7 @@ def set_operations(list1, list2):
     Returns:
         set: Common elements
     """
-    pass
+    
 
 def arithmetic_ops(a, b):
     a=7
@@ -104,7 +103,7 @@ def arithmetic_ops(a, b):
     Returns:
         dict: Results of arithmetic operations
     """
-    pass
+    
 
 def logical_ops(x, y):
     x = 3
@@ -123,7 +122,7 @@ def logical_ops(x, y):
     Returns:
         dict: Results of logical operations
     """
-    pass
+    
 
 def bitwise_ops(a, b):
     number = 0
@@ -140,4 +139,3 @@ def bitwise_ops(a, b):
     Returns:
         dict: Results of bitwise operations
     """
-    pass
