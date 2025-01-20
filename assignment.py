@@ -1,7 +1,7 @@
 def format_string(name, age):
     name='Zuberi'
     age=30
-    print(f'My Name is {name}, am {age} years old')
+    return(f'My Name is {name}, am {age} years old')
     """
     Create a formatted string using f-strings.
     Args:
@@ -20,6 +20,7 @@ def conditional_check(number):
         print('x is less')
     else:
         print('is equal to 10')
+    return(conditional_check)
     
     """
     Check if a number is greater, lesser, or equal to 10.
@@ -35,6 +36,7 @@ def loop_sum(n):
     sum=0
     for i in range(1,n+1):
         sum+=i
+    return(loop_sum)
       
     """
     Calculate sum of numbers from 1 to n using a loop.
@@ -49,6 +51,7 @@ def list_operations(numbers):
     print(sum(list))
     print(max(list))
     print(min(list))
+    return(list_operations)
     """
     Perform operations on a list of numbers.
     Args:
@@ -65,7 +68,7 @@ def dict_operations(students_dict):
                     Zuberi = 80,
                     Abdallah= 97, 
                     Grace= 100)
-    print(dict_by_func['Zuberi','Abdallah','Grace']) 
+    return(dict_by_func['Zuberi','Abdallah','Grace']) 
     """
     Find students with scores above 80.
     Args:
@@ -78,7 +81,7 @@ def dict_operations(students_dict):
 def set_operations(list1, list2):
     list1=[1,2,3,"a","z",85]
     list2=["c",2,5,6,8,"a","t"] #Common element can be found in sets by  intersection operation
-    
+    return(set_operations)
     """
     Find common elements between two lists.
     Args:
@@ -95,6 +98,7 @@ def arithmetic_ops(a, b):
     c=a+b
     d=a-b
     e=a*b
+    return(arithmetic_ops)
     """
     Perform arithmetic operations.
     Args:
@@ -113,7 +117,7 @@ def logical_ops(x, y):
         print("Both x and y are positive.")
     else:
         print("At least one is not positive.")
-
+    return(logical_ops)
     """
     Perform logical operations.
     Args:
@@ -130,7 +134,7 @@ def bitwise_ops(a, b):
         print("Odd")
     else:
         print("Even")
-
+    return(bitwise_ops)
     """
     Perform bitwise operations.
     Args:
