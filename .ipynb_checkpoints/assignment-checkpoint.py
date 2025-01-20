@@ -1,7 +1,4 @@
 def format_string(name, age):
-    name='Zuberi'
-    age=30
-    return(f'My Name is {name}, am {age} years old')
     """
     Create a formatted string using f-strings.
     Args:
@@ -10,18 +7,9 @@ def format_string(name, age):
     Returns:
         str: Formatted string
     """
-    
+    pass
 
 def conditional_check(number):
-    x=5
-    if x>10:
-        print('x is greater')
-    elif x<10:
-        print('x is less')
-    else:
-        print('is equal to 10')
-    return(conditional_check)
-    
     """
     Check if a number is greater, lesser, or equal to 10.
     Args:
@@ -29,15 +17,9 @@ def conditional_check(number):
     Returns:
         str: "Greater", "Lesser", or "Equal"
     """
-    
+    pass
 
 def loop_sum(n):
-    n=int(2)
-    sum=0
-    for i in range(1,n+1):
-        sum+=i
-    return(loop_sum)
-      
     """
     Calculate sum of numbers from 1 to n using a loop.
     Args:
@@ -45,13 +27,9 @@ def loop_sum(n):
     Returns:
         int: Sum of numbers
     """
-    
+    pass
+
 def list_operations(numbers):
-    list=[1,2,3,5,6,7,8,11,21,8,9,41,6]
-    print(sum(list))
-    print(max(list))
-    print(min(list))
-    return(list_operations)
     """
     Perform operations on a list of numbers.
     Args:
@@ -59,16 +37,9 @@ def list_operations(numbers):
     Returns:
         tuple: (sum, max, min)
     """
-    
+    pass
 
 def dict_operations(students_dict):
-    dict_by_func = dict(Jonah = 65,
-                    Siwema = 70,
-                    Chris= 77,
-                    Zuberi = 80,
-                    Abdallah= 97, 
-                    Grace= 100)
-    return(dict_by_func['Zuberi','Abdallah','Grace']) 
     """
     Find students with scores above 80.
     Args:
@@ -76,12 +47,9 @@ def dict_operations(students_dict):
     Returns:
         list: Names of students with scores > 80
     """
-    
+    pass
 
 def set_operations(list1, list2):
-    list1=[1,2,3,"a","z",85]
-    list2=["c",2,5,6,8,"a","t"] #Common element can be found in sets by  intersection operation
-    return(set_operations)
     """
     Find common elements between two lists.
     Args:
@@ -90,15 +58,9 @@ def set_operations(list1, list2):
     Returns:
         set: Common elements
     """
-    
+    pass
 
 def arithmetic_ops(a, b):
-    a=7
-    b=9
-    c=a+b
-    d=a-b
-    e=a*b
-    return(arithmetic_ops)
     """
     Perform arithmetic operations.
     Args:
@@ -107,17 +69,9 @@ def arithmetic_ops(a, b):
     Returns:
         dict: Results of arithmetic operations
     """
-    
+    pass
 
 def logical_ops(x, y):
-    x = 3
-    y = 7
-
-    if x > 0 and y > 0:
-        print("Both x and y are positive.")
-    else:
-        print("At least one is not positive.")
-    return(logical_ops)
     """
     Perform logical operations.
     Args:
@@ -126,15 +80,9 @@ def logical_ops(x, y):
     Returns:
         dict: Results of logical operations
     """
-    
+    pass
 
 def bitwise_ops(a, b):
-    number = 0
-    if number & 1:  
-        print("Odd")
-    else:
-        print("Even")
-    return(bitwise_ops)
     """
     Perform bitwise operations.
     Args:
@@ -143,3 +91,4 @@ def bitwise_ops(a, b):
     Returns:
         dict: Results of bitwise operations
     """
+    pass
